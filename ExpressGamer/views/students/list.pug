@@ -1,0 +1,29 @@
+extends ../layout
+
+block content
+    h2 Lista de estudiantes
+    table.table
+        thead
+            tr
+                th Nombre
+                th Apellidos
+                th Nombre completo
+                th Edad
+                th DNI
+                th Email
+                th Activo
+                th(colspan = "3") Acciones
+        tbody
+            each stu in students
+                tr
+                    td= stu.nombre
+                    td= stu.apellidos
+                    td= stu.nombre_completo
+                    td= stu.edad
+                    td= stu.dni
+                    td= stu.mail
+                    td= stu.activo
+                    td
+                        a.btn.btn-primary(href="/students/" +stu._id) Ver
+                        a.btn.btn-warning(href="/students/edit/" +stu.id) Editar
+                        a.btn.btn-danger(href="/students/delete/"+stu.id) Borrar

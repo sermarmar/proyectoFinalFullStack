@@ -1,0 +1,24 @@
+extends ../layout
+
+block content
+    h2 Crea nuevo estudiante.
+    form(method="POST", action="/students/create")
+        .form-group
+            label Nombre
+            input.form-control(type="text", name="nombre", placeholder="Introduce el nombre")
+        .form-group
+            label Apellidos
+            input.form-control(type="text", name="apellidos", placeholder="Introduce los apellidos")
+        .form-group
+            label Edad
+            input.form-control(type="number", name="edad")
+        .form-group
+            label DNI
+            input.form-control(type="text", name="dni")
+        .form-group
+            label Email
+            input.form-control(type="email", name="mail")
+        .form-group
+            label Activo
+            input.form-control(type="text", name="activo")
+        input.btn.btn-primary(type="submit", value="Enviar")
