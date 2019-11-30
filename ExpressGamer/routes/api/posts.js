@@ -23,7 +23,7 @@ router.post('/', (req, res) => {
 
 router.put('/', (req, res) => {
     console.log(req.body);
-    Post.findByIdAndUpdate(req.body.idPost, req.body, { new: true }, (err, post) => {
+    Post.findByIdAndUpdate(req.body._id, req.body, { new: true }, (err, post) => {
         if (err) return res.json(err);
         res.json(post);
     });

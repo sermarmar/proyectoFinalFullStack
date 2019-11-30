@@ -4,7 +4,7 @@ let Schema = mongoose.Schema;
 let postSchema = new Schema({
     titular: String,
     descripcion: String,
-    texto: Number,
+    texto: String,
     fechaAlta: String,
     categoria: String
 });

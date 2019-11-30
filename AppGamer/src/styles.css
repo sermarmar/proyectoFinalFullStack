@@ -1,1 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
+/* Color Theme Swatches in Hex */
+.Copia-de-Pink--blue--grey-1-hex { color: #FFFFFF; }
+.Copia-de-Pink--blue--grey-2-hex { color: #AEAEAE; }
+.Copia-de-Pink--blue--grey-3-hex { color: #E64C66; }
+.Copia-de-Pink--blue--grey-4-hex { color: #2D3E50; }
+.Copia-de-Pink--blue--grey-5-hex { color: #010A1F; }
+
+/* Color Theme Swatches in RGBA */
+.Copia-de-Pink--blue--grey-1-rgba { color: rgba(255, 255, 255, 1); }
+.Copia-de-Pink--blue--grey-2-rgba { color: rgba(174, 174, 174, 1); }
+.Copia-de-Pink--blue--grey-3-rgba { color: rgba(230, 75, 102, 1); }
+.Copia-de-Pink--blue--grey-4-rgba { color: rgba(45, 61, 80, 1); }
+.Copia-de-Pink--blue--grey-5-rgba { color: rgba(1, 10, 31, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Copia-de-Pink--blue--grey-1-hsla { color: hsla(0, 0, 100, 1); }
+.Copia-de-Pink--blue--grey-2-hsla { color: hsla(0, 0, 68, 1); }
+.Copia-de-Pink--blue--grey-3-hsla { color: hsla(349, 75, 60, 1); }
+.Copia-de-Pink--blue--grey-4-hsla { color: hsla(210, 27, 24, 1); }
+.Copia-de-Pink--blue--grey-5-hsla { color: hsla(222, 93, 6, 1); }
+
+body{
+    background-color: #2D3E50;
+    color:#FFFFFF;;
+}
+
+button, input[type=submit]{
+    background-color: #E64C66 !important;
+    color:white !important;
+    font-weight: bold !important;
+    margin-bottom: 10px !important;
+}
+
